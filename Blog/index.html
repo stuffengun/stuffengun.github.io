@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="Blogs\Css\Index.css">
+    <script src="Blogs\Script\index.js"></script>
+
+    
+
+</head>
+
+<body>
+    <div class="BG">
+
+        <div class="header">
+            <div class="head">
+
+                <div id="profinnhead" style=" display: flex;  ">
+                    <img src="Blogs\Img\Stfgn.png" alt="" class="logo">
+                </div>
+
+            </div>
+            <div class="head"></div>
+            <div class="head" >
+                <p class="innhead" style=" border-top: white 2px solid;"onclick="GoIframe('Blogs\\AboutMe.html')">home</p>
+                <p  class="innhead" onclick="GoIframe('Blogs\\Contact.html') ">contact</p>
+                <div class="innhead" style="border-bottom: white 2px solid; padding-left: 0;">
+                    <button class="contactbtn"><img src="Blogs\Img\iconmonstr-instagram-11.svg" alt="instagram"></button>
+                    <button class="contactbtn"><img src="Blogs\Img\iconmonstr-twitter-1.svg" alt="twitter"></button>
+                    <button class="contactbtn"><img src="Blogs\Img\iconmonstr-github-1.svg" alt="github"></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="underblocks" style="display: flex; flex-direction: column;">
+            <div id="profile">
+
+                <img src="Blogs\Img\sqidd.png" alt="" class="profilefic">
+                <p class="profileP">
+                <b style="color: rgb(255, 255, 255);font-size: small; background-color: rgba(255, 255, 255, 0); white-space: wrap;" >StuffenGun</b><br>
+                SRIHS SW 118
+                </p>
+
+            </div>
+
+            <ul class="Bloglist">
+                <li class="Innerli" onclick="GoIframe('Blogs\\AboutMe.html')">🔗About Me</li>
+
+                <details> 
+                    <summary>💻DEV</summary>
+                    <ul>
+                    <li class="Innerli" onclick="GoIframe('Blogs\\Dev\\School.html')"> 🏫School</li>
+                    <li class="Innerli" onclick="GoIframe('Blogs\\Dev\\Personal.html')">🐚Personal</li>
+                    </ul>
+            </details>
+
+              <details>  <summary>🎨DRG</summary>
+                    <ul>
+                        <li class="Innerli"  onclick="GoIframe('Blogs\\Drg\\Designs.html')">🖼️Designs</li>
+                        <li class="Innerli"  onclick="GoIframe('Blogs\\Drg\\Original_Content.html')">🍳Original Content</li>
+                    </ul>
+                </details>
+
+                <details>
+                <summary>🔖Extra</summary>
+                    <ul>
+
+                        <details>
+                        <summary>🎮Games</summary>
+                            <ul>
+                                <li class="Innerli" onclick="GoIframe('Blogs\\Extra\\Games\\General.html')">🕹️General</li>
+                                <li class="Innerli"  onclick="GoIframe('Blogs\\Extra\\Games\\Destiny.html')">🌕Destiny</li>
+                                <li class="Innerli" onclick="GoIframe('Blogs\\Extra\\Games\\FlightRising.html')">🐲Flight Rising</li>
+                            </ul>
+                        </details>
+
+                        <details>
+                        <summary>🎞️Media</summary>
+                        <ul>
+                            <li class="Innerli" onclick="GoIframe('Blogs\\Extra\\Media\\General.html')">🎭General</li>
+                        </ul>
+                        </details>
+
+                        <details>
+                            <summary>📖Books&Comics</summary>
+                            <ul>
+                                <li class="Innerli" onclick="GoIframe('Blogs\\Extra\\BookNComics\\General.html')">📕General</li>
+                                <li class="Innerli" onclick="GoIframe('Blogs\\Extra\\BookNComics\\Comics.html')">🦸‍♂️Comics</li>
+                            </ul>
+                            </details>
+
+                    </details>
+
+                    </ul>
+                </details>
+
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="AboutMe" >
+            <iframe src="Blogs\AboutMe.html" title="AboutMe" width="100%" height="100%" id="ifm"></iframe>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
